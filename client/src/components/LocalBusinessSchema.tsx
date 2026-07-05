@@ -15,11 +15,11 @@ const LocalBusinessSchema = () => {
       "name": "Noorain Raza - AI & Cloud Specialist",
       "alternateName": "Noorain Raza Tech Services",
       "description": "Professional AI, Cloud Computing, and Full Stack Development services from Shillong, Meghalaya, serving clients globally",
-      "url": "https://noorain.me",
-      "image": "https://noorain.me/profile/profile-photo.jpg",
-      "logo": "https://noorain.me/images/logo.svg",
+      "url": "https://noorain-raza-portfolio.onrender.com",
+      "image": "https://noorain-raza-portfolio.onrender.com/profile/profile-photo.jpg",
+      "logo": "https://noorain-raza-portfolio.onrender.com/images/logo.svg",
       "telephone": "+91-XXXXXXXXXX", // Replace with actual phone if available
-      "email": "contact@noorain.me",
+      "email": "contact@noorain-raza-portfolio.onrender.com",
       "founder": {
         "@type": "Person",
         "name": "Noorain Raza",

@@ -40,7 +40,7 @@ const DynamicSEOUpdater = () => {
       const ogImage = document.querySelector('meta[property="og:image"]');
       if (ogImage) {
         const currentImage = ogImage.getAttribute('content');
-        if (currentImage && currentImage.includes('noorain.me')) {
+        if (currentImage && currentImage.includes('noorain-raza-portfolio.onrender.com')) {
           const newImage = currentImage.replace(/https:\/\/[^\/]+/, currentDomain);
           ogImage.setAttribute('content', newImage);
         }
@@ -49,7 +49,7 @@ const DynamicSEOUpdater = () => {
       const twitterImage = document.querySelector('meta[property="twitter:image"]');
       if (twitterImage) {
         const currentImage = twitterImage.getAttribute('content');
-        if (currentImage && currentImage.includes('noorain.me')) {
+        if (currentImage && currentImage.includes('noorain-raza-portfolio.onrender.com')) {
           const newImage = currentImage.replace(/https:\/\/[^\/]+/, currentDomain);
           twitterImage.setAttribute('content', newImage);
         }

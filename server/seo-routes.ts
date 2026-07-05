@@ -7,7 +7,7 @@ export function setupSEORoutes(app: Express) {
   
   // Dynamic sitemap generation
   app.get('/sitemap.xml', (req, res) => {
-    const baseUrl = 'https://noorain.me';
+    const baseUrl = 'https://noorain-raza-portfolio.onrender.com';
     const currentDate = new Date().toISOString().split('T')[0];
     
     const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
@@ -105,7 +105,7 @@ export function setupSEORoutes(app: Express) {
 
   // Enhanced robots.txt with dynamic content
   app.get('/robots.txt', (req, res) => {
-    const baseUrl = 'https://noorain.me';
+    const baseUrl = 'https://noorain-raza-portfolio.onrender.com';
     
     const robots = `# Robots.txt for Noorain Raza Portfolio - AI & Cloud Specialist
 # Optimized for maximum search engine visibility and global reach
@@ -181,15 +181,15 @@ Crawl-delay: 1`;
       "@graph": [
         {
           "@type": "Person",
-          "@id": "https://noorain.me/#person",
+          "@id": "https://noorain-raza-portfolio.onrender.com/#person",
           "name": "Noorain Raza",
           "givenName": "Noorain",
           "familyName": "Raza",
           "alternateName": ["Noorain", "Raza", "Noorain Raza"],
           "jobTitle": "Computer Science Engineering Student",
           "description": "AI & Cloud Specialist, Full Stack Developer, Machine Learning Enthusiast from Shillong, Meghalaya, India - Serving clients globally",
-          "url": "https://noorain.me",
-          "image": "https://noorain.me/profile/profile-photo.jpg",
+          "url": "https://noorain-raza-portfolio.onrender.com",
+          "image": "https://noorain-raza-portfolio.onrender.com/profile/profile-photo.jpg",
           "birthPlace": "Shillong, Meghalaya, India",
           "nationality": "Indian",
           "gender": "Male",
@@ -251,45 +251,45 @@ Crawl-delay: 1`;
           },
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://noorain.me/"
+            "@id": "https://noorain-raza-portfolio.onrender.com/"
           }
         },
         {
           "@type": "WebSite",
-          "@id": "https://noorain.me/#website",
+          "@id": "https://noorain-raza-portfolio.onrender.com/#website",
           "name": "Noorain Raza Portfolio",
           "alternateName": ["Noorain Portfolio", "Raza Portfolio"],
           "description": "Professional portfolio of Noorain Raza - Computer Science Engineering student specializing in AI, Cloud technologies, and software development",
-          "url": "https://noorain.me",
+          "url": "https://noorain-raza-portfolio.onrender.com",
           "author": {
-            "@id": "https://noorain.me/#person"
+            "@id": "https://noorain-raza-portfolio.onrender.com/#person"
           },
           "publisher": {
-            "@id": "https://noorain.me/#person"
+            "@id": "https://noorain-raza-portfolio.onrender.com/#person"
           },
           "potentialAction": {
             "@type": "SearchAction",
             "target": {
               "@type": "EntryPoint",
-              "urlTemplate": "https://noorain.me/?search={search_term_string}"
+              "urlTemplate": "https://noorain-raza-portfolio.onrender.com/?search={search_term_string}"
             },
             "query-input": "required name=search_term_string"
           },
           "mainEntity": {
-            "@id": "https://noorain.me/#person"
+            "@id": "https://noorain-raza-portfolio.onrender.com/#person"
           }
         },
         {
           "@type": "ProfilePage",
-          "@id": "https://noorain.me/#profilepage",
+          "@id": "https://noorain-raza-portfolio.onrender.com/#profilepage",
           "name": "Noorain Raza - Computer Science Engineering Student | AI & Cloud Specialist | Portfolio",
           "description": "Professional portfolio showcasing Noorain Raza's expertise in AI, Cloud technologies, Python, React, and software development",
-          "url": "https://noorain.me",
+          "url": "https://noorain-raza-portfolio.onrender.com",
           "mainEntity": {
-            "@id": "https://noorain.me/#person"
+            "@id": "https://noorain-raza-portfolio.onrender.com/#person"
           },
           "isPartOf": {
-            "@id": "https://noorain.me/#website"
+            "@id": "https://noorain-raza-portfolio.onrender.com/#website"
           },
           "breadcrumb": {
             "@type": "BreadcrumbList",
@@ -298,13 +298,13 @@ Crawl-delay: 1`;
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://noorain.me/"
+                "item": "https://noorain-raza-portfolio.onrender.com/"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Noorain Raza",
-                "item": "https://noorain.me/"
+                "item": "https://noorain-raza-portfolio.onrender.com/"
               }
             ]
           }
@@ -368,7 +368,7 @@ Crawl-delay: 1`;
   // Meta tags generator for different pages
   app.get('/api/seo/meta/:page', (req, res) => {
     const { page } = req.params;
-    const baseUrl = 'https://noorain.me';
+    const baseUrl = 'https://noorain-raza-portfolio.onrender.com';
     
     const metaTags = {
       home: {

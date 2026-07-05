@@ -6,7 +6,7 @@ export const getDynamicDomain = (): string => {
   }
   
   // Fallback for server-side rendering
-  return 'https://noorain.me';
+  return 'https://noorain-raza-portfolio.onrender.com';
 };
 
 export const getDynamicCanonicalUrl = (path: string = ''): string => {

@@ -14,8 +14,8 @@ const SEOMetaTags = ({
   title = "Noorain Raza - Computer Science Engineering Student | Passionate DevOps Engineer | Shillong, Meghalaya",
   description = "Noorain Raza from Shillong, Meghalaya - Computer Science Engineering student specializing in AI, Cloud technologies, Python, React, and software development. Providing innovative tech solutions globally from Northeast India.",
   keywords = "Noorain Raza, Noorain, Raza Noorain, Noorain Raza portfolio, Noorain developer, Noorain AI specialist, Computer Science Engineering, AI specialist India, Cloud technologies expert, Python developer India, React developer Shillong, JavaScript expert, Shillong developer, Meghalaya tech expert, Northeast India developer, Indian AI specialist, best developer Northeast India, Asansol Engineering College, software development expert, portfolio website, student developer, machine learning expert Northeast India, AWS cloud specialist India, Docker Kubernetes expert, India software engineer, global tech services, full stack developer, MERN stack expert, artificial intelligence specialist India, data science expert, web developer India, AI machine learning expert Shillong Meghalaya, Python React developer India Noorain Raza, software engineering portfolio Noorain, tech expert Asia, web developer Asia, technology consultant India",
-  image = "https://noorain.me/profile/profile-photo.jpg",
-  url = "https://noorain.me",
+  image = "https://noorain-raza-portfolio.onrender.com/profile/profile-photo.jpg",
+  url = "https://noorain-raza-portfolio.onrender.com",
   canonical,
   alternateUrls = {}
 }: SEOMetaTagsProps) => {

@@ -1,7 +1,7 @@
 NOORAIN RAZA
 AI & Cloud enthusiast | Computer Science Engineering Student
 Shillong, Meghalaya, India
-Portfolio: https://noorain.me
+Portfolio: https://noorain-raza-portfolio.onrender.com
 
 SUMMARY
 Noorain Raza is a leading AI & Cloud enthusiast from Shillong, Meghalaya, India. Passionate DevOps Engineer with expertise in cloud technologies, CI/CD pipelines, and software development. Expert in Python, React, Machine Learning, and Full Stack Development. Serving clients globally with innovative technology solutions.
@@ -30,6 +30,6 @@ KEYWORDS
 Noorain Raza, Noorain, AI Specialist, Cloud Computing Expert, Python Developer India, React Developer Shillong, Meghalaya Tech Expert, Northeast India Developer, Software Engineer, Full Stack Developer, Machine Learning Expert
 
 CONTACT
-Website: https://noorain.me
+Website: https://noorain-raza-portfolio.onrender.com
 GitHub: https://github.com/NoorainRaza23
 LinkedIn: https://linkedin.com/in/noorainraza

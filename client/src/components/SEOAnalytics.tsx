@@ -156,13 +156,13 @@ const SEOAnalytics = ({ pageName = 'home', userId }: SEOAnalyticsProps) => {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://noorain.me/"
+            "item": "https://noorain-raza-portfolio.onrender.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Noorain Raza",
-            "item": "https://noorain.me/"
+            "item": "https://noorain-raza-portfolio.onrender.com/"
           }
         ]
       };
@@ -181,11 +181,11 @@ const SEOAnalytics = ({ pageName = 'home', userId }: SEOAnalyticsProps) => {
       const organizationSchema = {
         "@context": "https://schema.org",
         "@type": "Person",
-        "@id": "https://noorain.me/#person",
+        "@id": "https://noorain-raza-portfolio.onrender.com/#person",
         "name": "Noorain Raza",
         "alternateName": ["Noorain", "Raza"],
-        "url": "https://noorain.me",
-        "image": "https://noorain.me/profile/profile-photo.jpg",
+        "url": "https://noorain-raza-portfolio.onrender.com",
+        "image": "https://noorain-raza-portfolio.onrender.com/profile/profile-photo.jpg",
         "sameAs": [
           "https://github.com/NoorainRaza23",
           "https://linkedin.com/in/noorainraza"

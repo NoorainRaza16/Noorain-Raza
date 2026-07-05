@@ -23,7 +23,7 @@
    - ✓ LocalBusinessSchema component integrated
    - ✓ Robots.txt includes geographic context
    - ✓ Humans.txt file created
-   - ✓ All URLs use noorain.me domain
+   - ✓ All URLs use noorain-raza-portfolio.onrender.com domain
 
 ## 🚀 DEPLOYMENT IMPACT:
 When deployed, SEO score will increase from 33/100 to 95/100 - a 188% improvement!

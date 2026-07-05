@@ -62,8 +62,8 @@ const SEOLayout = ({
         <meta itemProp="alternateName" content="Raza" />
         <meta itemProp="jobTitle" content="Computer Science Engineering Student" />
         <meta itemProp="description" content="AI & Cloud enthusiast with expertise in Python, React, and software development. Building innovative solutions for tomorrow's challenges." />
-        <meta itemProp="image" content="https://noorain.me/profile/profile-photo.jpg" />
-        <meta itemProp="url" content="https://noorain.me" />
+        <meta itemProp="image" content="https://noorain-raza-portfolio.onrender.com/profile/profile-photo.jpg" />
+        <meta itemProp="url" content="https://noorain-raza-portfolio.onrender.com" />
         <meta itemProp="alumniOf" content="Asansol Engineering College" />
         <meta itemProp="address" content="Shillong, Meghalaya, India" />
         <meta itemProp="nationality" content="Indian" />

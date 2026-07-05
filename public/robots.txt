@@ -74,7 +74,7 @@ User-agent: GlassdoorBot
 Allow: /
 
 # Sitemap location
-Sitemap: https://noorain.me/sitemap.xml
+Sitemap: https://noorain-raza-portfolio.onrender.com/sitemap.xml
 
 # Default crawl delay for respectful crawling
 Crawl-delay: 1

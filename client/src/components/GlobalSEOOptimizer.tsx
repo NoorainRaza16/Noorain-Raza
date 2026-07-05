@@ -11,8 +11,8 @@ const GlobalSEOOptimizer = () => {
       "name": "Noorain Raza",
       "alternateName": ["Noorain", "Raza Noorain", "Noorain AI Specialist"],
       "description": "Leading AI & Cloud Specialist from Shillong, Meghalaya, India",
-      "url": "https://noorain.me",
-      "logo": "https://noorain.me/images/logo.svg",
+      "url": "https://noorain-raza-portfolio.onrender.com",
+      "logo": "https://noorain-raza-portfolio.onrender.com/images/logo.svg",
       "founder": {
         "@type": "Person",
         "name": "Noorain Raza"
@@ -77,17 +77,17 @@ const GlobalSEOOptimizer = () => {
       "description": "Noorain Raza - Premier AI & Cloud Specialist from Shillong, Meghalaya, India. Recognized expert in Python, React, Machine Learning, and innovative technology solutions.",
       "disambiguatingDescription": "AI & Cloud Specialist, Computer Science Engineering Student, Full Stack Developer from Shillong, Meghalaya, India",
       "identifier": [
-        "https://noorain.me",
+        "https://noorain-raza-portfolio.onrender.com",
         "noorain-raza",
         "noorain",
         "raza-noorain"
       ],
-      "url": "https://noorain.me",
-      "mainEntityOfPage": "https://noorain.me",
+      "url": "https://noorain-raza-portfolio.onrender.com",
+      "mainEntityOfPage": "https://noorain-raza-portfolio.onrender.com",
       "subjectOf": [
         {
           "@type": "WebPage",
-          "url": "https://noorain.me",
+          "url": "https://noorain-raza-portfolio.onrender.com",
           "name": "Noorain Raza Portfolio"
         }
       ]

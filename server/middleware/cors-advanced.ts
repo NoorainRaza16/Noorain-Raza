@@ -14,8 +14,8 @@ export const advancedCORS = (req: Request, res: Response, next: NextFunction) =>
       return true;
     }
     
-    // Allow noorain.me and its subdomains
-    if (origin.includes('noorain.me')) {
+    // Allow noorain-raza-portfolio.onrender.com and its subdomains
+    if (origin.includes('noorain-raza-portfolio.onrender.com')) {
       return true;
     }
     

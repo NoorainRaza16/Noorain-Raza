@@ -7,8 +7,8 @@ export const config = {
   // Enhanced CORS settings for custom domain support
   corsOrigin: process.env.NODE_ENV === 'production' 
     ? [
-        'https://noorain.me',
-        'https://www.noorain.me',
+        'https://noorain-raza-portfolio.onrender.com',
+        'https://www.noorain-raza-portfolio.onrender.com',
         process.env.RENDER_EXTERNAL_URL,
         `https://${process.env.RENDER_SERVICE_NAME}.onrender.com`,
         'https://*.onrender.com',
@@ -23,8 +23,8 @@ export const config = {
         'http://localhost:3000', 
         'http://localhost:5000',
         'http://localhost:5173',
-        'https://noorain.me',
-        'https://www.noorain.me'
+        'https://noorain-raza-portfolio.onrender.com',
+        'https://www.noorain-raza-portfolio.onrender.com'
       ],
     
   // Session settings

@@ -178,20 +178,20 @@ const AdvancedSEOSchema = () => {
             "query-input": "required name=search_term_string"
           },
           "mainEntity": {
-            "@id": "https://noorain.me/#person"
+            "@id": "https://noorain-raza-portfolio.onrender.com/#person"
           }
         },
         {
           "@type": "ProfilePage",
-          "@id": "https://noorain.me/#profilepage",
+          "@id": "https://noorain-raza-portfolio.onrender.com/#profilepage",
           "name": "Noorain Raza - AI & Cloud Specialist | Shillong, Meghalaya",
           "description": "Comprehensive portfolio showcasing Noorain Raza's expertise in AI, Cloud technologies, Python, React, and software development from Shillong, Meghalaya, India",
-          "url": "https://noorain.me",
+          "url": "https://noorain-raza-portfolio.onrender.com",
           "mainEntity": {
-            "@id": "https://noorain.me/#person"
+            "@id": "https://noorain-raza-portfolio.onrender.com/#person"
           },
           "isPartOf": {
-            "@id": "https://noorain.me/#website"
+            "@id": "https://noorain-raza-portfolio.onrender.com/#website"
           },
           "breadcrumb": {
             "@type": "BreadcrumbList",
@@ -200,26 +200,26 @@ const AdvancedSEOSchema = () => {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://noorain.me/"
+                "item": "https://noorain-raza-portfolio.onrender.com/"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Noorain Raza Portfolio",
-                "item": "https://noorain.me/"
+                "item": "https://noorain-raza-portfolio.onrender.com/"
               }
             ]
           }
         },
         {
           "@type": "Organization",
-          "@id": "https://noorain.me/#organization",
+          "@id": "https://noorain-raza-portfolio.onrender.com/#organization",
           "name": "Noorain Raza Tech Services",
           "description": "Professional technology services by Noorain Raza - AI, Cloud Computing, and Full Stack Development",
-          "url": "https://noorain.me",
-          "logo": "https://noorain.me/images/logo.svg",
+          "url": "https://noorain-raza-portfolio.onrender.com",
+          "logo": "https://noorain-raza-portfolio.onrender.com/images/logo.svg",
           "founder": {
-            "@id": "https://noorain.me/#person"
+            "@id": "https://noorain-raza-portfolio.onrender.com/#person"
           },
           "foundingLocation": {
             "@type": "Place",

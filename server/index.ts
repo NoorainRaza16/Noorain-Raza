@@ -84,8 +84,8 @@ app.use(validateDomain);
 // Enhanced CORS configuration for custom domains
 const allowedOrigins = process.env.NODE_ENV === 'production' 
   ? [
-      'https://noorain.me',
-      'https://www.noorain.me',
+      'https://noorain-raza-portfolio.onrender.com',
+      'https://www.noorain-raza-portfolio.onrender.com',
       process.env.RENDER_EXTERNAL_URL,
       process.env.RENDER_SERVICE_NAME ? `https://${process.env.RENDER_SERVICE_NAME}.onrender.com` : null,
       "https://*.onrender.com"
@@ -93,8 +93,8 @@ const allowedOrigins = process.env.NODE_ENV === 'production'
   : [
       "http://localhost:5173", 
       "http://localhost:5000",
-      "https://noorain.me",
-      "https://www.noorain.me"
+      "https://noorain-raza-portfolio.onrender.com",
+      "https://www.noorain-raza-portfolio.onrender.com"
     ];
 
 const io = new SocketIOServer(httpServer, {

@@ -65,7 +65,7 @@ Allow: /
 Disallow: /admin
 Disallow: /api/
 
-Sitemap: https://noorain.me/sitemap.xml`);
+Sitemap: https://noorain-raza-portfolio.onrender.com/sitemap.xml`);
     } else {
       res.type('text/plain');
       res.send(`User-agent: *
@@ -76,7 +76,7 @@ Disallow: /`);
   // Sitemap.xml for SEO - Force custom domain
   app.get('/sitemap.xml', (req, res) => {
     // Force custom domain regardless of environment variables
-    const baseUrl = 'https://noorain.me';
+    const baseUrl = 'https://noorain-raza-portfolio.onrender.com';
     
     res.type('application/xml');
     res.send(`<?xml version="1.0" encoding="UTF-8"?>
