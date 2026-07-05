@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="40" viewBox="0 0 120 40">
+  <g fill="#3b82f6">
+    <path d="M10 30L20 10H30L20 30H10Z" />
+    <path d="M35 30L45 10H55L45 30H35Z" />
+    <path d="M60 10H100V15H60V10Z" />
+    <path d="M60 17.5H90V22.5H60V17.5Z" />
+    <path d="M60 25H80V30H60V25Z" />
+  </g>
+  <text x="20" y="38" font-family="Arial" font-size="10" fill="#3b82f6">Portfolio</text>
+</svg>

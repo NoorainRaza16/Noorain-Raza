@@ -1,0 +1,54 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+    Developer: Noorain Raza
+    Location: Shillong, Meghalaya, India
+    Education: Computer Science Engineering
+    Institution: Asansol Engineering College
+    Contact: noorainraza [at] example.com
+    Social: linkedin.com/in/noorainraza
+    GitHub: github.com/NoorainRaza23
+
+# LOCATION
+    Primary Location: Shillong, Meghalaya, India
+    Coordinates: 25.5788°N, 91.8933°E
+    Time Zone: IST (GMT+5:30)
+    Service Area: Global (Remote services available)
+    Local Markets: Northeast India, Assam, Meghalaya, Manipur, Tripura
+
+# SPECIALIZATIONS
+    Artificial Intelligence & Machine Learning
+    Cloud Computing & DevOps
+    Full Stack Web Development
+    Python & JavaScript Development
+    React.js & Node.js
+    Database Management
+    Software Architecture
+
+# TECHNOLOGY
+    Frontend: React.js, TypeScript, Tailwind CSS
+    Backend: Node.js, Express.js, MongoDB
+    Cloud: AWS, Docker, Kubernetes
+    Tools: Git, VS Code, Postman
+    Languages: Python, JavaScript, TypeScript, Java, C++
+
+# SERVICES OFFERED
+    Web Application Development
+    AI/ML Solutions
+    Cloud Infrastructure Setup
+    Database Design & Optimization
+    API Development & Integration
+    Technical Consulting
+    Code Review & Mentoring
+
+# AVAILABILITY
+    Open for freelance projects
+    Remote collaboration preferred
+    Available for global clients
+    Flexible with international time zones
+
+# UPDATES
+    Last Updated: June 2025
+    Portfolio Version: 2.0
+    Location Updated: Shillong, Meghalaya

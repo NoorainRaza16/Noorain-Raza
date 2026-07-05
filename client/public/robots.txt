@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.noorainraza.com/sitemap.xml
+
+# Allow access to profile images and assets
+Allow: /profile/
+Allow: /images/
+Allow: /files/
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.pdf$
+
+# Block admin areas if any
+Disallow: /admin/
+Disallow: /api/admin/
+
+# Crawl-delay (optional - helps with server load)
+Crawl-delay: 1
+
+# Host preference
+Host: www.noorainraza.com

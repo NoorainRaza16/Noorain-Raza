@@ -1,0 +1,85 @@
+# Robots.txt for Noorain Raza Portfolio - Passionate DevOps Engineer with expertise in cloud technologies, CI/CD pipelines, and software development
+# Shillong, Meghalaya, India | Serving Clients Globally
+# Optimized for maximum search engine visibility and geographic targeting
+
+User-agent: *
+Allow: /
+
+# Prioritize key portfolio sections for crawling
+Allow: /blog
+Allow: /blog/*
+Allow: /#about
+Allow: /#skills
+Allow: /#projects
+Allow: /#experience
+Allow: /#education
+Allow: /#certifications
+Allow: /#contact
+
+# Block admin areas from search engines
+Disallow: /admin
+Disallow: /admin/*
+Disallow: /api/*
+
+# Allow all major global search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+# Allow regional search engines for better local visibility
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 2
+
+# Social media crawlers for enhanced sharing
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# Professional networks and job platforms
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: AngelListBot
+Allow: /
+
+User-agent: GlassdoorBot
+Allow: /
+
+# Sitemap location
+Sitemap: https://noorain.me/sitemap.xml
+
+# Default crawl delay for respectful crawling
+Crawl-delay: 1
+
+# Geographic and location-based comments for SEO
+# Location: Shillong, Meghalaya, Northeast India
+# Service Area: Global with focus on India, Southeast Asia, and international markets
+# Specializations: AI, Cloud Technologies, Full Stack Development

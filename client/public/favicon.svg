@@ -1,0 +1,16 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="16" fill="#1f2937"/>
+  
+  <!-- Profile image with circular mask -->
+  <defs>
+    <mask id="circleMask">
+      <circle cx="16" cy="16" r="15" fill="white"/>
+    </mask>
+  </defs>
+  
+  <image href="favicon.jpg" x="0" y="0" width="32" height="32" mask="url(#circleMask)" preserveAspectRatio="xMidYMid slice"/>
+  
+  <!-- Border -->
+  <circle cx="16" cy="16" r="15" fill="none" stroke="#3b82f6" stroke-width="1"/>
+</svg>

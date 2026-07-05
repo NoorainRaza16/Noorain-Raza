@@ -1,0 +1,24 @@
+/* Radial gradient utilities */
+.bg-radial-gradient-to-b {
+  background-image: radial-gradient(circle at center, var(--tw-gradient-from) 0%, var(--tw-gradient-via) 50%, var(--tw-gradient-to) 100%);
+}
+
+.bg-radial-gradient-to-t {
+  background-image: radial-gradient(circle at center, var(--tw-gradient-to) 0%, var(--tw-gradient-via) 50%, var(--tw-gradient-from) 100%);
+}
+
+.bg-radial-gradient-to-tl {
+  background-image: radial-gradient(circle at top left, var(--tw-gradient-from) 0%, var(--tw-gradient-via) 50%, var(--tw-gradient-to) 100%);
+}
+
+.bg-radial-gradient-to-tr {
+  background-image: radial-gradient(circle at top right, var(--tw-gradient-from) 0%, var(--tw-gradient-via) 50%, var(--tw-gradient-to) 100%);
+}
+
+.bg-radial-gradient-to-bl {
+  background-image: radial-gradient(circle at bottom left, var(--tw-gradient-from) 0%, var(--tw-gradient-via) 50%, var(--tw-gradient-to) 100%);
+}
+
+.bg-radial-gradient-to-br {
+  background-image: radial-gradient(circle at bottom right, var(--tw-gradient-from) 0%, var(--tw-gradient-via) 50%, var(--tw-gradient-to) 100%);
+}

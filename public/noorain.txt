@@ -1,0 +1,9 @@
+Noorain Raza
+Passionate DevOps Engineer with expertise in cloud technologies, CI/CD pipelines, and software development
+Shillong, Meghalaya, India
+
+Noorain is a Computer Science Engineering student and Passionate DevOps Engineer with expertise in cloud technologies, CI/CD pipelines, and software development from Shillong, Meghalaya. He specializes in Python, React, Machine Learning, and Cloud Computing. Noorain provides innovative technology solutions to clients globally while being based in Northeast India.
+
+Skills: Python, React, JavaScript, AI, Machine Learning, Cloud Computing, AWS, Docker, Kubernetes, Full Stack Development
+
+Portfolio: https://noorain.me

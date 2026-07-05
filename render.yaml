@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: portfolio-web-service
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        fromDatabase:
+          name: portfolio-db
+          property: connectionString
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: RENDER_EXTERNAL_URL
+        fromService:
+          type: web
+          name: portfolio-web-service
+          property: host
+      - key: RENDER_SERVICE_NAME
+        fromService:
+          type: web
+          name: portfolio-web-service
+          property: name
+
+databases:
+  - name: portfolio-db
+    databaseName: portfolio
+    user: portfolioadmin
